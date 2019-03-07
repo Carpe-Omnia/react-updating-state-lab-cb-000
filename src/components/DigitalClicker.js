@@ -4,7 +4,7 @@ export default class DigitalClicker extends React.Component {
 
   constructor() {
     super() ;
-     this.State = {
+     this.state = {
        timesClicked: 0
      }
      this.clickCount = this.clickCount.bind(this)
